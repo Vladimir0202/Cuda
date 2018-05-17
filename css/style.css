@@ -5,6 +5,10 @@ margin: 0;
 font-family: 'Titillium Web', sans-serif;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
 
 .block1{
     background:#87509c;
@@ -82,22 +86,20 @@ a.li-buttons:hover {
     text-align:center;
 }
 
-a.button{
+.button-orange{
     display:block;
-    color:white;
+    color:#FFFFFF;
     font-size:25px;
     border-radius:5px;
-    padding:15px 60px;
+    padding:12px 60px;
     margin: auto;
     text-align: center;
+    box-align: center;
     text-decoration: none;
-}
-a.button{
-    background-color: #EB7D48;
-    border: 2px solid rgb(218, 153, 33);
+    background-color: #EB7D4B;
 }
 
-a.button:hover {
+.button-orange:hover {
     background-color: rgb(228, 133, 43);
 }
 
@@ -138,13 +140,14 @@ a.button:hover {
 }
 .branding-and-rocket{
     max-width: 1180px;
-    min-width:1000px;
+    min-width:100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center; 
+    align-items: center; 
+    flex-shrink:2;
 }
 .box-image{
     height:200px;
@@ -255,7 +258,7 @@ soc_net{
 
 .block4{
     background:#FFFFFF;
-    height: 600px;
+    height: 520px;
     min-width:1000px;
     color:#3C4761;
     text-align:center;
@@ -343,3 +346,58 @@ soc_net{
     font-size: 50px;
     
 }
+
+
+.block5{
+    background:#FFDD99;
+    height: 1300px;
+    min-width:1000px;
+    color: #393939;
+    text-align:center;
+}
+
+.box-image-comp{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:45px 10px 0px 10px;
+    padding:3px;
+
+}
+
+.button-green{
+    display:block;
+    color:white;
+    font-size:25px;
+    border-radius:5px;
+    padding:12px 55px;
+    margin: auto;
+    text-align: center;
+    box-align: center;
+    text-decoration: none;
+    background-color: #17C2A4;
+}
+.button-green:hover{
+    background-color: rgb(69, 211, 185);
+}
+
+a.li-buttons-yellow{
+    background:#EBC985;
+    color: black;
+    font-weight:bold;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+a.li-buttons-yellow:hover {
+	background: #FFFFFF;
+	padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+
+    
