@@ -456,3 +456,84 @@ a.about_link_text:hover{
     margin-top:50px;
 }
 
+.block7{
+    background:#3C5499;
+    height: 750px;
+    min-width:1000px;
+    color: #FFFFFF;
+    text-align:center;  
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+}
+
+.form-field{
+    width: 350px;
+    height:40px;
+    border-radius:5px;
+    font-size:18px;
+    background:#273A71;
+    color:white;
+    margin:50px 10px 10px 10px;
+    border:none;
+}
+
+textarea{
+    width: 720px;
+    height:250px;
+    border-radius:5px;
+    font-size:18px;
+    background:#273A71;
+    color:white;
+    margin:10px;
+    border:none;
+    text-align:left;
+    margin-bottom:40px;
+}
+
+.button-blue{
+    display:block;
+    color:white;
+    font-size:25px;
+    border-radius:5px;
+    padding:10px 55px;
+    margin: auto;
+    text-align: center;
+    box-align: center;
+    text-decoration: none;
+    background-color: #30BAE7;
+}
+.button-blue:hover{
+    background-color: rgb(93, 197, 231);
+}
+
+.footer{
+   background: #344B8E;
+   height:65px;
+}
+
+.footer-menu>li{
+    display: inline-block;
+    align:center;
+    margin-top:15px; 
+}
+
+.li-footer{
+    padding:20px;
+    margin:10px;
+    font-size:23px;
+    font-weight:bold;
+    color:white;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-bottom:15px;
+    margin-top:15px;   
+}
+.li-footer:hover{
+    color:#30BAE7;      
+}
